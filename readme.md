@@ -10,6 +10,26 @@ Status: Final
 - Bug Fixes
 - Improved Support for Facebook Open Graph
 
+### Prerequisites
+
+- Install NPM - tutorial: https://docs.npmjs.com/
+- Install composer - tutorial: https://getcomposer.org/
+- Gulp 4.0 - tutorial: http://bit.ly/29KB3Dv
+
+### Installation
+
+- mkdir respond
+- git clone https://github.com/madoublet/respond .
+- npm install
+- gulp
+- cp .env.example .env
+- nano .env
+- mkdir public/sites
+- chown -R www-data public/sites
+- mkdir resources/sites
+- chown -R www-data resources/sites
+- composer update
+
 ### Design Goals
 - Modern application stack: Angular 2 + Laravel
 - Flat File CMS / static HTML site
