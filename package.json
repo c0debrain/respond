@@ -50,6 +50,8 @@
     "gulp-minify": "0.0.12",
     "gulp-util": "^3.0.7",
     "gulp-zip": "^3.2.0",
+    "gulp-cli": "^1.2.2",
+    "gulp-sourcemaps": "^2.0.0",
     "html-webpack-plugin": "^2.24.1",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.13.1",
